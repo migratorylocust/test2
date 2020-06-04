@@ -24,3 +24,7 @@ def odd_even():
                     <form action="/" method="POST">
                     <input name="num"></input>
                     </form>"""
+        
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    app.run(port=port)
